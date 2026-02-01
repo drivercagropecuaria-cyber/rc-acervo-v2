@@ -32,7 +32,7 @@ Sistema completo de biblioteca de fotos/vídeos da RC Agropecuária com:
 │  │  ├── /api/media            → Lista todos os arquivos com metadados     ││
 │  │  ├── /api/media/:id        → Detalhes de um arquivo                    ││
 │  │  ├── /api/folders          → Lista estrutura de pastas                 ││
-│  │  └── /api/stats            → Estatísticas do acervo                    ││
+│  │  └── /api/media/stats      → Estatísticas do acervo                    ││
 │  └─────────────────────────────────────────────────────────────────────────┘│
 │  ┌─────────────────────────┐  ┌─────────────────────────┐                   │
 │  │  Backblaze Service      │  │  Database Service       │                   │
@@ -63,7 +63,7 @@ Sistema completo de biblioteca de fotos/vídeos da RC Agropecuária com:
 
 ```
 1. USUÁRIO SELECIONA ARQUIVO
-   └── Frontend: B2UploadModal.tsx
+   └── Frontend: UploadModal.tsx
        └── Coleta metadados (área, núcleo, tema, status)
 
 2. FRONTEND PEDE URL DE UPLOAD
@@ -146,10 +146,10 @@ NODE_ENV=production
 FRONTEND_URL=https://seu-frontend.vercel.app
 
 # Backblaze B2
-B2_ACCOUNT_ID=0052cfa9b6df80a0000000001
-B2_APPLICATION_KEY=K005zrrojM9dxyA/grTSocR1mu7aFpc
-B2_BUCKET_NAME=Drive-mkt-RC
-B2_BUCKET_ID=c2dc2ffa190b166d9fc8001a
+B2_ACCOUNT_ID=seu_account_id
+B2_APPLICATION_KEY=sua_application_key
+B2_BUCKET_NAME=seu_bucket_name
+B2_BUCKET_ID=seu_bucket_id
 ```
 
 ## 🚀 DEPLOY

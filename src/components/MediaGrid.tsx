@@ -4,7 +4,7 @@
  * Exibe o grid de mídias com filtros e busca
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Search, Filter, Grid, List, RefreshCw, FolderOpen } from 'lucide-react';
 import MediaCard from './MediaCard';
 import { MediaItem, Folder, AREAS, NUCLEOS_PECUARIA, NUCLEOS_AGRO, TEMAS, STATUS } from '../types';
