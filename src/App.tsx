@@ -4,15 +4,14 @@
  * Sistema completo de biblioteca de fotos e vídeos da RC Agropecuária
  */
 
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { 
   LayoutDashboard, 
   Grid, 
   Upload, 
-  Settings, 
+  Settings,
   LogOut,
   Menu,
-  X,
   Server,
   CheckCircle,
   AlertCircle

@@ -14,20 +14,16 @@ Sistema completo de gerenciamento de acervo fotográfico e audiovisual da RC Agr
 
 ```
 rc-acervo-v2/
-├── backend/          # API Node.js + Express
-│   ├── src/
-│   │   ├── routes/   # Rotas da API
-│   │   ├── services/ # Lógica de negócio
-│   │   └── server.ts # Servidor principal
-│   └── package.json
-│
-├── frontend/         # React + TypeScript + Tailwind
-│   ├── src/
-│   │   ├── components/  # Componentes React
-│   │   ├── services/    # API client
-│   │   └── App.tsx      # App principal
-│   └── package.json
-│
+├── routes/            # Rotas da API (Express)
+├── services/          # Serviços do backend
+├── server.ts          # Servidor principal (API)
+├── types.ts           # Tipos compartilhados do backend
+├── src/               # Frontend React + TypeScript
+│   ├── components/    # Componentes React
+│   ├── services/      # API client
+│   ├── types.ts       # Tipos do frontend
+│   ├── App.tsx        # App principal
+│   └── main.tsx       # Entrada do React
 └── ENGENHARIA_SISTEMA.md  # Documentação técnica
 ```
 
@@ -46,7 +42,7 @@ FRONTEND_URL=https://seu-frontend.vercel.app
 
 B2_ACCOUNT_ID=seu_account_id
 B2_APPLICATION_KEY=sua_application_key
-B2_BUCKET_NAME=Drive-mkt-RC
+B2_BUCKET_NAME=seu_bucket_name
 B2_BUCKET_ID=seu_bucket_id
 ```
 
