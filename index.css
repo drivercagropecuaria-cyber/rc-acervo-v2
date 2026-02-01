@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-rc-dark text-rc-cream font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-rc-gold text-rc-dark font-medium rounded-lg 
+           hover:bg-rc-gold/90 transition-colors duration-200
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 bg-rc-green text-rc-cream font-medium rounded-lg 
+           hover:bg-rc-green/90 transition-colors duration-200
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .btn-outline {
+    @apply px-4 py-2 border border-rc-gold text-rc-gold font-medium rounded-lg 
+           hover:bg-rc-gold/10 transition-colors duration-200
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  
+  .card {
+    @apply bg-rc-green/30 border border-rc-gold/20 rounded-xl p-4
+           hover:border-rc-gold/40 transition-all duration-200;
+  }
+  
+  .input {
+    @apply w-full px-4 py-2 bg-rc-dark border border-rc-gold/30 rounded-lg
+           text-rc-cream placeholder:text-rc-cream/50
+           focus:outline-none focus:border-rc-gold focus:ring-1 focus:ring-rc-gold
+           transition-all duration-200;
+  }
+  
+  .select {
+    @apply w-full px-4 py-2 bg-rc-dark border border-rc-gold/30 rounded-lg
+           text-rc-cream appearance-none
+           focus:outline-none focus:border-rc-gold focus:ring-1 focus:ring-rc-gold
+           transition-all duration-200;
+  }
+  
+  .label {
+    @apply block text-sm font-medium text-rc-cream/80 mb-1;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(212, 165, 116, 0.3) transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgba(212, 165, 116, 0.3);
+    border-radius: 3px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: rgba(212, 165, 116, 0.5);
+  }
+}
