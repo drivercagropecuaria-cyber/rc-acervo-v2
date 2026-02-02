@@ -46,8 +46,8 @@ Sistema completo de biblioteca de fotos/vídeos da RC Agropecuária com:
                                       ▼ S3 API
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                           BACKBLAZE B2 (Storage)                             │
-│  Bucket: Drive-mkt-RC                                                        │
-│  Endpoint: s3.us-east-005.backblazeb2.com                                    │
+│  Bucket: Backblaze-Biblioteca-Gp                                                        │
+│  Endpoint: s3.us-east-005.backblazeb2.com                                   │
 │                                                                              │
 │  Estrutura de Pastas:                                                        │
 │  ├── 00_ENTRADA/          → Uploads iniciais (temporário)                   │
