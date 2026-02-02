@@ -29,6 +29,7 @@ rc-acervo-v2/
 │   └── package.json
 │
 └── ENGENHARIA_SISTEMA.md  # Documentação técnica
+
 ```
 
 ## 🔧 Configuração
