@@ -158,7 +158,7 @@ B2_BUCKET_ID=seu_bucket_id
 1. Criar Web Service
 2. Conectar repositório GitHub
 3. Build Command: `npm install && npm run build`
-4. Start Command: `npm start`
+4. Start Command: `node server.ts` (ou `npm run start`)
 5. Adicionar Environment Variables
 
 ### Frontend (Vercel/Netlify)

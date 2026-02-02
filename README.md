@@ -47,7 +47,7 @@ B2_BUCKET_ID=seu_bucket_id
 ```
 
 4. Build Command: `npm install && npm run build`
-5. Start Command: `npm start`
+5. Start Command: `node server.ts` (ou `npm run start`)
 
 ### Frontend (Vercel/Netlify)
 
