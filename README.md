@@ -47,7 +47,7 @@ FRONTEND_URL=https://seu-frontend.vercel.app
 
 B2_ACCOUNT_ID=seu_account_id
 B2_APPLICATION_KEY=sua_application_key
-B2_BUCKET_NAME=Drive-mkt-RC
+B2_BUCKET_NAME=Backblaze-Biblioteca-Gpt
 B2_BUCKET_ID=seu_bucket_id
 ```
 
