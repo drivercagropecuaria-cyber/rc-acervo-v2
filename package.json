@@ -1,4 +1,5 @@
-{
+{npm ls vite
+
   "name": "rc-acervo-frontend",
   "version": "2.0.0",
   "private": true,
