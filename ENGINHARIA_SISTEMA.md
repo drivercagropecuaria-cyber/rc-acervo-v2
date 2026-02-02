@@ -143,7 +143,7 @@ interface MediaItem {
 # Backend
 PORT=3001
 NODE_ENV=production
-FRONTEND_URL=https://seu-frontend.vercel.app
+FRONTEND_URL=https://biblioteca-gpt.onrender.com
 
 # Backblaze B2
 B2_ACCOUNT_ID=0052cfa9b6df80a0000000005
