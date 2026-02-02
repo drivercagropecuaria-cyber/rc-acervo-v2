@@ -59,7 +59,7 @@ B2_BUCKET_ID=seu_bucket_id
 1. Crie arquivo `.env`:
 
 ```env
-VITE_API_URL=https://seu-backend.onrender.com
+VITE_API_URL=https://biblioteca-gpt.onrender.com
 ```
 
 2. Build: `npm run build`
