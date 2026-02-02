@@ -43,7 +43,7 @@ rc-acervo-v2/
 ```env
 PORT=3001
 NODE_ENV=production
-FRONTEND_URL=https://seu-frontend.vercel.app
+FRONTEND_URL=https://biblioteca-gpt.onrender.com
 
 B2_ACCOUNT_ID=seu_account_id
 B2_APPLICATION_KEY=sua_application_key
